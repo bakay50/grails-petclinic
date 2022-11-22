@@ -4,7 +4,6 @@ buildscript {
     }
     repositories {
         mavenLocal()
-        maven { url "https://repo.grails.org/artifactory/core" }
         maven { url "https://repo.grails.org/grails/core" }
     }
     dependencies {
@@ -40,7 +39,6 @@ assets {
 
 repositories {
     mavenLocal()
-    maven { url "https://repo.grails.org/artifactory/core" }
     maven { url "https://repo.grails.org/grails/core" }
 }
 
