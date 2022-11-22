@@ -2,9 +2,9 @@ package org.grails.samples
 
 class ClinicController {
 
-	def index() {}
+	//def index() {}
 
-	def tutorial() {}
+	//def tutorial() {}
 
 	def vets() {
 		[vets: Vet.list()]
